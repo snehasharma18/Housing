@@ -10,7 +10,7 @@ from prophet import Prophet
 import pickle
 
 # Load the saved Prophet model
-with open("D:\Projects\Bitcoin Price Prediction\prophet_model.pkl", 'rb') as f:
+with open("prophet_model.pkl", 'rb') as f:
     model = pickle.load(f)
     print(model)
     
