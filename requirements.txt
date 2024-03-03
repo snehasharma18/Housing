@@ -1,6 +1,6 @@
 numpy
 pandas >=2.0.0, <2.1.0
-pickle5
+pickle
 scikit-learn==1.3.2
 seaborn
 statsmodels
